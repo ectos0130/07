@@ -2,15 +2,13 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
-int main(int argc, char *argv[]) {
-	int i = 10;
-	printf("함수 호출전 i = %d\n", i);
-	inc(i);
-	printf("함수 호출후 i = %d\n", i);
+int y;
+int main(int argc, char *argv[]){
+	int flag = 1;
+	while (flag != 0){
+		y = 3;
+		flag = 0;
+	}
+	y = 4;
 	return 0;
-}
-int inc(int counter){
-	counter++;
-	return counter;
 }
